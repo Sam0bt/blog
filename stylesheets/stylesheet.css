@@ -9,7 +9,9 @@ body {
 }
 
 /* General & 'Reset' Stuff */
-
+code { 
+  border: #b5e853 dotted;
+}
 .container {
   width: 100%;
   max-width: 800px;
