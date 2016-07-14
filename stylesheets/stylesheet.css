@@ -10,9 +10,9 @@ body {
 
 /* General & 'Reset' Stuff */
 code { 
-  padding: 2px 2px 2px 2px;
+  padding: 5px 5px 5px 5px;
   border-left: 5px solid #b5e853;
-  background-color: lightgrey;
+  background-color: black;
 }
 .container {
   width: 100%;
