@@ -13,7 +13,10 @@ function getUrlVars()
     return vars;
 }
 
-var name = getUrlVars()["name"]; 
-var surname = getUrlVars()["surname"]; 
-document.getElementById("p1").innerHTML = name;
+var PackageName = getUrlVars()["PackageName"];
+var description = getUrlVars()["description"]; 
+var Pspec = getUrlVars()["Pspec"]; 
+var PisiPackageName = getUrlVars()["PisiPackageName"];
+var PisiEm = getUrlVars()["PisiEm"];
+document.getElementById("packagename").innerHTML = PackageName;
 });
